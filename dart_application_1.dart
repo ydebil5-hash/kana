@@ -1,24 +1,19 @@
 void main(){
-  String coffeemachin = 'admin';
-
-  switch(coffeemachin){
-    case 'admin':
-    print('welcome to coffemachin, admin!');
+  String day = 'sunday';
+  switch(day){
+    case 'monday':
+    case 'tuesday':
+    case 'wednsday':
+    case 'thursday':
+    case 'friday':
+    print('workday');
     break;
-    case 'espresso':
-    print('vashi dengi postupili. Nachinaetsya process gotovki');
-    break;
-    case 'capuccino':
-    print('vashi dengi postupili. Nachinaetsya process gotovki');
-    break;
-    case 'americano':
-    print('vashi dengi postupili. Nachinaetsya process gotovki');
-    break;
-    case 'latte':
-    print('vashi dengi postupili. Nachinaetsya process gotovki');
+    case 'sunday':
+    case 'saturday':
+    print('restday');
     break;
     default:
-    print('dengi ne postupili. poshel otsuda');
+    print('error');
     break;
   }
 }
